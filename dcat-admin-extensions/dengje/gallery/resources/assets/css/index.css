@@ -1,0 +1,13 @@
+.extension-demo {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+.img-border{
+    padding: .25rem;
+    background-color: #eff1f7;
+    border: 1px solid #dae1e7;
+    border-radius: .5rem;
+
+}

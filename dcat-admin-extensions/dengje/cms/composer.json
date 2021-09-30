@@ -1,0 +1,32 @@
+{
+    "name": "dengje/cms",
+    "alias": "",
+    "description": "基于DcatAdmin功能完善的CMS系统",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/dengje/cms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "爱喝啤酒的友",
+            "email": "luckyoupan@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dengje\\Cms\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Dengje\\Cms\\CmsServiceProvider",
+        "laravel": {
+            "providers": [
+                "Dengje\\Cms\\CmsServiceProvider"
+            ]
+        }
+    }
+}
