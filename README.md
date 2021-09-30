@@ -1,6 +1,7 @@
 # 简介
 
-Laravel+Uniapp开发的微信小程序，可适用于资讯、博客等。
+Laravel+Uniapp开发的微信小程序，可适用于资讯、博客等。前端uniapp源码地址：
+[https://gitee.com/DengJe/lu-you](https://gitee.com/DengJe/lu-you)
 
 
 
